@@ -15,7 +15,7 @@ logform.addEventListener('click', function(event) {
     var userExists = users.find(user => user.username === username);
 
     if (userExists) {
-        window.location.href = '.index.html'
+        window.location.href = '../index.html'
     } else {
         alert("Usuário não encontrado.");
     }

@@ -274,3 +274,11 @@ button{
   justify-content: center;
 }
 
+.bnt{
+  border-radius: 5px;
+  border: none;
+  background-color: var(--orange);
+  color: var(--white);
+  display: flex;
+  font-family: "League Spartan", sans-serif;
+}
