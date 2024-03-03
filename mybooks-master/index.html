@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Books</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <img class="img" src="./img/logo_api_1-removebg-preview.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="./pages/login.html">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="carrosel">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="./img/img12.png" width="300px" height="400">
+          <img src="./img/img13.png" width="300px" height="400">
+          <img src="./img/img14.png" width="300px" height="400">   
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://m.media-amazon.com/images/I/719CP5vswpL.jpg" width="300px" height="400">
+          <img src="https://m.media-amazon.com/images/I/81hXoU5WQFL.jpghttps://m.media-amazon.com/images/I/81hXoU5WQFL.jpg" width="300px" height="400">
+          <img src="https://m.media-amazon.com/images/I/91g9Dvtf+jL.jpg" width="300px" height="400">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://m.media-amazon.com/images/I/91nn6TGt5EL.jpg" width="300px" height="400">
+          <img src="https://m.media-amazon.com/images/I/91taBwU9wmL.jpg" width="300px" height="400">
+          <img src="https://m.media-amazon.com/images/I/81qtUiLhGWL.jpg" width="300px" height="400">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </main>
+       <div class="text1">
+        <h4>Destaques do My Books</h4>
+       </div>
+      <main class="container">
+        <div id="titulo-container" class="titulo-container">
+        </div>
+      </main>
+    <script src="./js/titleBooks.js"></script>
+    <footer>
+      <p>&copy;Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
